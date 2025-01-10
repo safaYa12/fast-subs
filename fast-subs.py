@@ -9,7 +9,7 @@ print(ascii_art)
 domain = 'DOMAIN FOR SUBDOMAIN ENUMERATION : '
 
 # Read subdomains from the file
-with open('subdomains.txt') as file:
+with open('subdomains-10000.txt') as file:
     subdomains = file.read().splitlines()
 
 discovered_subdomains = []
