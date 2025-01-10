@@ -22,11 +22,11 @@ Enumerate Subdomains fastly with python code by threading.
 
 ## Usage
 
-1.
+1. Brute force Subdomains with word list of 10000 wotds
 2. Can Prepare your own `subdomains.txt` wordlist with potential subdomains.
 3. Run the tool:
     ```bash
-    python main.py
+    python fast-subs.py
     ```
 4. Enter the domain you want to enumerate subdomains for when prompted.
 5. The results will be saved in a file named `<domain>_subdomains.txt`.
@@ -34,4 +34,4 @@ Enumerate Subdomains fastly with python code by threading.
 ## Example
 
 ```bash
-python main.py
+python fast-subs.py
