@@ -6,7 +6,7 @@ import pyfiglet
 ascii_art = pyfiglet.figlet_format("fast-subs")
 print(ascii_art)
 
-domain = 'DOMAIN FOR SUBDOMAIN ENUMERATION : '
+domain = input('DOMAIN FOR SUBDOMAIN ENUMERATION : ').strip()
 
 # Read subdomains from the file
 with open('subdomains-10000.txt') as file:
