@@ -34,7 +34,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     executor.map(check_subdomain, subdomains)
 
 # Write discovered subdomains to a file
-with open("discovered_subdomains.txt", 'w') as f:
+with open(f"{domain}_subdomains.txt", 'w') as f:
     for subdomain in discovered_subdomains:
         print(subdomain, file=f)
 # Output results
