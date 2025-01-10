@@ -1,5 +1,5 @@
 # fast-subs
-Enumerate Subdomains fastly with python code with threading.
+Enumerate Subdomains fastly with python code by threading.
 ## Features
 
 - Fast subdomain enumeration using `ThreadPoolExecutor`.
@@ -22,13 +22,14 @@ Enumerate Subdomains fastly with python code with threading.
 
 ## Usage
 
-1. Prepare your `subdomains.txt` wordlist with potential subdomains.
-2. Run the tool:
+1.
+2. Can Prepare your own `subdomains.txt` wordlist with potential subdomains.
+3. Run the tool:
     ```bash
     python main.py
     ```
-3. Enter the domain you want to enumerate subdomains for when prompted.
-4. The results will be saved in a file named `<domain>_subdomains.txt`.
+4. Enter the domain you want to enumerate subdomains for when prompted.
+5. The results will be saved in a file named `<domain>_subdomains.txt`.
 
 ## Example
 
